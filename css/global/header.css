@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+}
+
+.header-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    font-family: "Urbanist", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #101013;
+    border: 1px solid #F5EEDE;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+    background-color: #F5EEDE;
+}
+
+@media (max-width: 1024px){   
+    .header-menu{
+        display: flex;
+        gap: 20px;
+        font-size: 0.7rem;
+        padding: 5px 10px 5px 10px;
+    }
+}
+
+@media (max-width: 428px){   
+    .header{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header-menu{
+        display: flex;
+        gap: 5px;
+        font-size: 0.7rem;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .header img{
+        width: 100px;
+        padding-bottom: 5px;
+    }
+}

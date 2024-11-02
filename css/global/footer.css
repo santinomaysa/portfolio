@@ -1,0 +1,32 @@
+.footer-bg{
+    background-color: #D06BC3;
+    padding: 50px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer-texto{
+    color: #F5EEDE;
+    font: 400 1rem/1.5 "Urbanist", sans-serif;
+    opacity: 80%;
+}
+
+.footer-texto span{
+    color: #101013;
+}
+
+@media (max-width: 428px){
+    .footer-bg{
+        padding: 20px;
+    }
+
+    .footer-bg img{
+        width: 100px;
+    }
+
+    .footer-texto{
+        color: #F5EEDE;
+        font: 400 0.85rem "Urbanist", sans-serif;
+        opacity: 80%;
+    }
+}

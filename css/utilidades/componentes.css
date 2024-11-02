@@ -1,0 +1,33 @@
+.container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.nav-box{
+    border: 1px solid #101013;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+    text-align: center;
+}
+
+.nav-box:hover{
+    background: #D06BC3;
+    color: #F5EEDE;
+    transition: 0.4s;
+}
+
+@media (max-width: 428px){   
+    .nav-box{
+        border: 1px solid #101013;
+        padding: 7px;
+        border-radius: 50px;
+        width: 80px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,159 @@
+.projeto-celeste{
+    display: block;
+    padding-top: 120px;
+}
+
+.logo-celeste{
+    display: flex;
+    margin-top: -40px;
+    justify-content: center;
+}
+
+.celeste-info{
+    font-family: "Urbanist", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+.projeto-texto-celeste{
+    padding-bottom: 40px;
+    padding-left: 5px;
+    position: relative;
+}
+
+.projeto-texto-celeste2{
+    padding-bottom: 40px;
+    padding-left: 5px;
+    position: relative;
+}
+
+.projeto-softwares-celeste{
+    padding-left: 5px;
+    position: relative;
+}
+
+.projeto-softwares-celeste::before{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 35px;
+    border-radius: 50px 50px;
+    background: #F3FDFF;
+    position: absolute;
+    top: -3px;
+    left: -9px;
+}
+
+.projeto-texto-celeste::before{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 35px;
+    border-radius: 50px 50px;
+    background: #F3FDFF;
+    position: absolute;
+    top: -3px;
+    left: -9px;
+}
+
+.projeto-texto-celeste2::before{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 35px;
+    border-radius: 50px 50px;
+    background: #F3FDFF;
+    position: absolute;
+    top: -3px;
+    left: -9px;
+}
+
+.mockups-celeste{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 80px 0px 40px 0px;
+}
+
+@media (max-width: 1024px){
+    .mockups-celeste img{
+        width: 800px;
+    }
+}
+
+@media (max-width: 768px){
+    .logo-celeste{
+        display: flex;
+        margin-top: -60px;
+    }
+
+    .projeto-texto-celeste{
+        padding-bottom: 25px;
+        font-size: 1rem;
+    }
+    
+    .projeto-texto-celeste2{
+        padding-bottom: 25px;
+        font-size: 1rem;
+    }
+
+    .projeto-texto-celeste::before{
+        height: 30px;
+    }
+    
+    .projeto-texto-celeste2::before{
+        height: 30px;
+    }
+
+    .projeto-softwares-celeste img{
+        width: 25px;
+    }
+
+    .projeto-softwares-celeste::before{
+        height: 30px;
+    }
+
+    .mockups-celeste img{
+        width: 700px;
+    }
+}
+
+@media (max-width: 428px){
+
+    .logo-celeste{
+        display: flex;
+        margin-top: -60px;
+    }
+
+    .projeto-texto-celeste{
+        padding-bottom: 25px;
+        font-size: 1rem;
+    }
+    
+    .projeto-texto-celeste2{
+        padding-bottom: 25px;
+        font-size: 1rem;
+    }
+
+    .projeto-texto-celeste::before{
+        height: 30px;
+    }
+    
+    .projeto-texto-celeste2::before{
+        height: 30px;
+    }
+
+    .projeto-softwares-celeste img{
+        width: 25px;
+    }
+
+    .projeto-softwares-celeste::before{
+        height: 30px;
+    }
+
+    .mockups-celeste img{
+        width: 380px;
+    }
+}

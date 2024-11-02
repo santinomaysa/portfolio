@@ -1,0 +1,219 @@
+.projeto-besafe{
+    display: block;
+    padding-top: 120px;
+}
+
+.logo-besafe{
+    display: flex;
+    margin-top: -40px;
+    justify-content: center;
+}
+
+.besafe-info{
+    font-family: "Urbanist", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+.projeto-texto-besafe{
+    padding-bottom: 40px;
+    padding-left: 5px;
+    position: relative;
+}
+
+.projeto-texto-besafe2{
+    padding-bottom: 40px;
+    padding-left: 5px;
+    position: relative;
+}
+
+.projeto-softwares-besafe{
+    display: flex;
+    gap: 10px;
+    padding-left: 5px;
+    position: relative;
+}
+
+.projeto-softwares-besafe::before{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 35px;
+    border-radius: 50px 50px;
+    background: #C6E34F;
+    position: absolute;
+    top: -3px;
+    left: -9px;
+}
+
+.projeto-texto-besafe::before{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 35px;
+    border-radius: 50px 50px;
+    background: #C6E34F;
+    position: absolute;
+    top: -3px;
+    left: -9px;
+}
+
+.projeto-texto-besafe2::before{
+    content: "";
+    display: block;
+    width: 5px;
+    height: 35px;
+    border-radius: 50px 50px;
+    background: #C6E34F;
+    position: absolute;
+    top: -3px;
+    left: -9px;
+}
+
+.cores-2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+    font-family:"Urbanist", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.cor-besafe-1{
+    background-color: #C6E34F;
+    color: #111111;
+    border-radius: 10px;
+    padding: 15px 60px 15px 60px;
+}
+.cor-besafe-2{
+    background-color: #111111;
+    border: 1px solid #FFFFFF;
+    color: #EBEBEB;
+    border-radius: 10px;
+    padding: 15px 75px 15px 75px;
+}
+.cor-besafe-3{
+    background-color: #EBEBEB;
+    color: #111111;
+    border-radius: 10px;
+    padding: 15px 60px 15px 60px;
+}
+
+.mockups-besafe{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 80px 0px 40px 0px;
+}
+
+@media (max-width: 1024px){
+    .mockups-besafe img{
+        width: 800px;
+    }
+}
+
+@media (max-width: 768px){
+    .logo-besafe{
+        display: flex;
+        margin-top: -60px;
+    }
+
+    .projeto-texto-besafe{
+        padding-bottom: 25px;
+        font-size: 1rem;
+    }
+    
+    .projeto-texto-besafe2{
+        padding-bottom: 25px;
+        font-size: 1rem;
+    }
+
+    .projeto-texto-besafe::before{
+        height: 30px;
+    }
+    
+    .projeto-texto-besafe2::before{
+        height: 30px;
+    }
+
+    .projeto-softwares-besafe img{
+        width: 25px;
+    }
+
+    .projeto-softwares-besafe::before{
+        height: 30px;
+    }
+
+    .cores-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        padding-top: 50px;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .mockups-besafe img{
+        width: 600px;
+    }
+}
+
+@media (max-width: 428px){
+
+    .logo-besafe{
+        display: flex;
+        margin-top: -60px;
+    }
+
+    .projeto-texto-besafe{
+        padding-bottom: 25px;
+        font-size: 1rem;
+    }
+    
+    .projeto-texto-besafe2{
+        padding-bottom: 25px;
+        font-size: 1rem;
+    }
+
+    .projeto-texto-besafe::before{
+        height: 30px;
+    }
+    
+    .projeto-texto-besafe2::before{
+        height: 30px;
+    }
+
+    .projeto-softwares-besafe img{
+        width: 25px;
+    }
+
+    .projeto-softwares-besafe::before{
+        height: 30px;
+    }
+
+    .cores-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding-top: 50px;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .cor-besafe-1{
+        background-color: #C6E34F;
+        color: #111111;
+        border-radius: 10px;
+        padding: 15px 20px 15px 20px;
+    }
+
+    .mockups-besafe img{
+        width: 330px;
+    }
+}
+
+
+

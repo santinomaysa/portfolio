@@ -1,0 +1,206 @@
+.projetos{
+    display: flex;
+    padding-top: 150px;
+}
+
+.projetos-titulo{
+    font-family: "Paytone One", sans-serif;
+    font-size: 3rem;
+    color: #D06BC3;
+    letter-spacing: 0.1rem;
+    padding-bottom: 10px;
+}
+
+.projetos-texto{
+    font-family: "Urbanist", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 1px solid #D06BC3;
+    border-radius: 20px;
+    background-color: #D06BC3;
+    color: #101013;
+    width: 1160px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.projetos-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 20px;
+}
+
+.projetos-box{
+    border-radius: 20px;
+    background-color: #F5EEDE;
+    width: 400px;
+    padding: 30px 30px 30px 30px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.projeto-conteudo{
+    color: #101013;
+}
+
+.projeto-link{
+    font-family: "Paytone One", sans-serif;
+    font-size: 1.5rem;
+}
+
+.projeto-texto{
+    font-family: "Urbanist", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.projeto-lista{
+    font-family: "Urbanist", sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.projeto-lista-item{
+    border: 1px solid #D06BC3;
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+
+.projeto-externo{
+    display: flex;
+    padding-top: 10px;
+}
+
+.projeto-acesso{
+    display: flex;
+    border: 2px solid #101013;
+    border-radius: 20px;
+    width: 150px;
+    color: #D06BC3;
+    background-color: #101013;
+    padding: 5px;
+    gap: 2px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.projeto-acesso-texto{
+    font-family: "Paytone One", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.projeto-acesso:hover{
+    background-color: #080F0F;
+    color: #F5EEDE;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    overflow: hidden;
+}
+
+@media (max-width: 1024px){
+    .projetos-texto{
+        font-size: 1.2rem;
+        font-weight: 600;
+        border: 1px solid #D06BC3;
+        border-radius: 20px;
+        background-color: #D06BC3;
+        color: #101013;
+        width: 980px;
+        text-align: center;
+        padding: 20px 0px 20px 0px;
+    }
+
+    .projetos-box{
+        border-radius: 20px;
+        background-color: #F5EEDE;
+        width: 300px;
+        padding: 30px 30px 30px 30px;
+    }
+
+    .projetos-box img{
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    
+    .projeto-conteudo{
+        color: #101013;
+    }
+    
+    .projeto-link{
+        font-size: 1rem;
+    }
+    
+    .projeto-texto{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 768px){
+    .projetos-titulo{
+        font-size: 2.2rem;
+        margin-top: -50px;
+    }
+
+    .projetos-texto{
+        font-size: 1rem;
+        width: 725px;
+    }
+
+    .projetos-box{
+        border-radius: 20px;
+        background-color: #F5EEDE;
+        width: 290px;
+        padding: 30px 30px 30px 30px;
+        margin-left: 5px;
+    }
+    
+    .projetos-box img{
+        width: 290px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 428px){
+    .projetos-titulo{
+        font-size: 2.2rem;
+        margin-top: -50px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .projetos-texto{
+        font-size: 0.8rem;
+        width: 385px;
+    }
+
+    .projetos-cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        justify-content: center;
+    }
+
+    .projetos-box{
+        border-radius: 20px;
+        background-color: #F5EEDE;
+        width: 250px;
+        padding: 30px 30px 30px 30px;
+        margin-top: 20px;
+    }
+    
+    .projetos-box img{
+        width: 250px;
+        margin-bottom: 10px;
+    }
+}

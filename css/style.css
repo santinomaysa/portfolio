@@ -1,0 +1,20 @@
+/* GLOBAL */
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* UTILIDADES */
+@import "./utilidades/componentes.css";
+
+/* HOME */
+@import "./home/introducao.css";
+@import "./home/informacao.css";
+@import "./home/habilidades.css";
+@import "./home/projetos.css";
+@import "./home/contato.css";
+
+/* PROJETOS */
+@import "./projetos/agony.css";
+@import "./projetos/besafe.css";
+@import "./projetos/celeste.css";
+@import "./projetos/colapso.css";

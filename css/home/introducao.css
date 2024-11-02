@@ -1,0 +1,41 @@
+.introducao{
+    display: block;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.capa-site{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 1024px){   
+    .capa-site img{
+        text-align: center;
+        padding-bottom: 50px;
+        width: 750px;
+    }
+}
+
+@media (max-width: 768px){   
+    .capa-site img{
+        text-align: center;
+        padding-bottom: 50px;
+        width: 650px;
+    }
+}
+
+@media (max-width: 428px){   
+    .introducao{
+        display: block;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .capa-site img{
+        text-align: center;
+        padding-bottom: 50px;
+        width: 340px;
+    }
+}

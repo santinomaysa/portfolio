@@ -1,0 +1,56 @@
+.contato{
+    display: block;
+    text-align: center;
+}
+
+.contato-titulo{
+    font-family:"Paytone One", sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #D06BC3;
+    padding-top: 120px;
+    letter-spacing: 0.1rem;
+}
+
+#contato-icones{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 40px;  
+    padding-top: 20px; 
+}
+
+.contato-icones:hover{
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    overflow: hidden;
+}
+
+@media (max-width: 768px){   
+    .contato-titulo{
+        font-size: 2.2rem;
+        padding-top: 90px;
+    }
+
+    #contato-icones img{
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding-bottom: 60px;   
+        width: 60px;
+    }
+}
+
+@media (max-width: 428px){   
+    .contato{
+        display: block;
+        text-align: center;
+        margin-top: -40px;
+    }
+
+    #contato-icones img{  
+        width: 55px;
+    }
+}

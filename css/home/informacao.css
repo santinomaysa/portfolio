@@ -1,0 +1,70 @@
+.info{
+    display: block;
+    text-align: center;
+    padding: 70px 40px 70px 40px;
+    border: 1px solid;
+    background-color: #F5EEDE;
+    border-radius: 20px;
+    width: 900px;
+}
+
+.info-apresentacao{
+    font-family: "Paytone One", sans-serif;
+    font-size: 1.5rem;
+    color: #101013;
+    letter-spacing: 0.1rem;
+}
+
+.info-apresentacao-destaque{
+    color: #D06BC3;
+}
+
+.info-texto{
+    font-family: "Urbanist", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #101013;
+    padding-top: 10px;
+}
+
+
+@media (max-width: 768px){
+    .info{
+        display: block;
+        text-align: center;
+        margin-top: -90px;
+        padding: 40px 40px 40px 40px;
+        border: 1px solid;
+        background-color: #F5EEDE;
+        border-radius: 20px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 428px){
+    .info{
+        display: block;
+        text-align: center;
+        margin-top: -90px;
+        padding: 40px 40px 40px 40px;
+        border: 1px solid;
+        background-color: #F5EEDE;
+        border-radius: 20px;
+        width: 250px;
+    }
+
+    .info-apresentacao{
+        font-family: "Paytone One", sans-serif;
+        font-size: 0.8rem;
+        color: #101013;
+        letter-spacing: 0rem;
+    }
+
+    .info-texto{
+        font-family: "Urbanist", sans-serif;
+        font-size: 0.6rem;
+        font-weight: 500;
+        color: #101013;
+        padding-top: 10px;
+    }
+}
