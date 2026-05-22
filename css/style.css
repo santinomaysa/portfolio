@@ -1,0 +1,17 @@
+/* GLOBAL */
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* HOME */
+@import "./home/introducao.css";
+@import "./home/info.css";
+@import "./home/habilidades.css";
+@import "./home/projetos.css";
+@import "./home/contato.css";
+
+/* PROJETOS */
+@import "./projetos/calendario2026.css";
+@import "./projetos/maysaidvisual.css";
+@import "./projetos/pokemonposters.css";
+

@@ -1,0 +1,80 @@
+.introducao{
+    display: flex;
+    flex-direction: column;
+    padding-block: 50px;
+    position: relative;
+}
+
+.intro-nome{
+    font-family: "Afacad";
+    font-size: 1.5rem;
+    color: red;
+}
+
+.intro-titulo{
+    font-family: "Poppins";
+    font-size: 3.375rem;
+    font-weight: 900;
+    line-height: 0.8;
+}
+
+.intro-subtitulo{
+    position: absolute;
+    font-family: "Beth Ellen";
+    color: red;
+    font-size: 5rem;
+    top: 47%;
+}
+
+.intro-avatar {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    width: 220px;
+    height: 220px;
+}
+
+.seta{
+    display: flex;
+    padding-top: 150px;
+    justify-content: center;
+    animation: seta 1.5s infinite;
+}
+
+@keyframes seta{
+    50%{
+        transform: translateY(10px);
+    }
+}
+
+@media (max-width: 768px){
+
+    .introducao{
+        padding-top: 10px;
+    }
+
+    .intro-nome{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .intro-titulo{
+        text-align: center;
+        font-size: 1.48rem;
+        line-height: 1;
+    }
+
+    .intro-subtitulo{
+        position: static;
+        font-size: 2.5rem;
+    }
+
+    .intro-avatar{
+        display: none;
+        }
+
+    .seta{
+        padding-top: 50px;
+    }
+}   

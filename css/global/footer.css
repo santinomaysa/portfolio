@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer-bg{
+    background-color: #FFDF00;
+}
+
+.footer-texto{
+    font-family: "Afacad";
+    color: #0E0C0C;
+}
+
+.footer-texto span{
+    color: red;
+}

@@ -1,0 +1,90 @@
+.projeto-interno{
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.titulo-projeto{
+    font-family: "Poppins";
+    color: red;
+    font-size: 2.5rem;
+}
+
+.info-projeto p{
+    font-family: "Afacad";
+    font-size: 1.125rem;
+    max-width: 1000px;
+}
+
+.info-obs{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-style: italic;
+    color: red;
+}
+
+.projeto-imagens{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.projeto-imagens img{
+    padding-bottom: 20px;
+}
+
+.tipo-projeto{
+    font-family: "Afacad";
+    font-size: 1.5rem;
+    color: red;
+    font-style: italic;
+}
+.link-projeto{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.link-externo{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Afacad";
+    font-size: 1.125rem;
+    transition: 0.3s ease;
+}
+
+.link-externo:hover{
+    border-color: #FFFFFF;
+    background-color: red;
+    color: #ffffff;
+}
+
+@media (max-width: 768px){
+
+    .titulo-projeto{
+        font-size: 1.5rem; 
+        line-height: 1;
+        padding-bottom: 10px;
+    }
+
+    .info-projeto p{
+        font-size: 1rem;
+    }
+
+    .tipo-projeto{
+        font-size: 1.125rem;
+    }
+
+    .projeto-imagens{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,81 @@
+.contato{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.contato-titulo{
+    font-family: "Poppins";
+    font-size: 2.5rem;
+    color: red;
+    padding-right: 160px;
+}
+
+.contatos{
+    display: flex;
+    gap: 90px;
+}
+
+.contato-email h4{
+    font-family: "Poppins";
+    font-weight: 300;
+}
+
+.contato-email p{
+    font-family: "Afacad";
+    font-weight: 900;
+    font-size: 1.125rem;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.contato-redes h4{
+    font-family: "Poppins";
+    font-weight: 300;
+}
+
+.contato-redes p{
+    font-family: "Afacad";
+    font-weight: 900;
+    font-size: 1.125rem;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.contato-email p:hover,
+.contato-redes p:hover{
+    transform: translateY(-2px);
+    opacity: 0.8;
+}
+
+@media (max-width: 768px){
+
+    .contato{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding-bottom: 40px;
+    }
+
+    .contato-titulo{
+        font-size: 2rem;
+        padding-right: 0;
+    }
+
+    .contatos{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .contato-email p,
+    .contato-redes p{
+        font-size: 1.25rem;
+        padding-bottom: 5px;
+    }
+
+    .contato-email p:hover,
+    .contato-redes p:hover{
+        opacity: 1;
+    }
+}

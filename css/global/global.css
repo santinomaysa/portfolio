@@ -1,0 +1,49 @@
+.container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    background-color: #0E0C0C;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, ul, p, blockquote, dd {
+    margin: 0px;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.animar{
+    opacity: 0;
+    transform: translateY(40px);
+
+    transition: opacity 0.8s ease,
+                transform 0.8s ease;
+}
+
+.animar.mostrar{
+    opacity: 1;
+    transform: translateY(0);
+}

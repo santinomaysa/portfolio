@@ -1,0 +1,27 @@
+.projeto-imagens-id{
+    display: grid;
+    place-items: center;
+}
+
+.projeto-imagens-id img{
+    padding-bottom: 30px;
+}
+
+
+@media (max-width: 768px){
+
+    .projeto-interno{
+        padding-top: 30px;
+    }
+
+    .projeto-imagens-id img{
+        padding-bottom: 20px;
+    }
+
+    .link-externo{
+        width: 100%;
+        max-width: 220px;
+        height: 40px;
+        font-size: 1rem;
+    }
+}
