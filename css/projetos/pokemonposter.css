@@ -1,0 +1,40 @@
+.projeto-imagens-pokemon{
+    display: grid;
+    place-items: center;
+    padding-top: 40px;
+}
+
+.projeto-imagens-pokemon img{
+    padding-bottom: 60px;
+}
+
+.pokemon-nome{
+    display: flex;
+    padding-bottom: 10px;
+    font-family: "Afacad";
+    font-size: 2rem;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+@media (max-width: 768px){
+
+    .projeto-interno{
+        padding-top: 30px;
+    }
+
+    .projeto-imagens-pokemon img{
+        padding-bottom: 20px;
+    }
+    .pokemon-nome{
+        font-size: 1rem;
+        padding-bottom: 2px;
+    }
+
+    .link-externo{
+        width: 100%;
+        max-width: 220px;
+        height: 40px;
+        font-size: 1rem;
+    }
+}
